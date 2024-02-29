@@ -1,0 +1,26 @@
+{
+  "home": {
+    "welcome": "Welcome to the project's test site!"
+  },
+  "navbar": {
+    "home": "HOME",
+    "form": "FORM",
+    "user": "USER",
+    "playground": "PLAYGROUND"
+  },
+  "login": {
+    "signin": "SIGN IN",
+    "signup": "SIGN UP",
+    "login": "Login"
+  },
+  "logout": {
+    "logout": "LOGOUT"
+  },
+  "email": {
+    "form": "Email form",
+    "recipient": "Recipient's email",
+    "subject": "Subject",
+    "content": "Mail content",
+    "send": "Send"
+  }
+}

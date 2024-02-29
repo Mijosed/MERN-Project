@@ -1,0 +1,15 @@
+#dependencies
+
+node_modules/
+#testing
+
+#production
+
+
+#misc
+.env
+.env.local
+.env.development.local
+.env.production.locals
+
+react-app-starterkit/

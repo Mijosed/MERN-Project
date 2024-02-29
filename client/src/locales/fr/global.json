@@ -1,0 +1,26 @@
+{
+  "home": {
+    "welcome": "Bienvenue sur le site test du projet !"
+  },
+  "navbar": {
+    "home": "ACCUEIL",
+    "form": "FORMULAIRE",
+    "user": "UTILISATEUR",
+    "playground": "PLAYGROUND"
+  },
+  "login": {
+    "signin": "SE CONNECTER",
+    "signup": "S'INSCRIRE",
+    "login": "Connexion"
+  },
+  "logout": {
+    "logout": "SE DÉCONNECTER"
+  },
+  "email": {
+    "form": "Formulaire d'envoi d'e-mails",
+    "recipient": "Mail du destinataire",
+    "subject": "Sujet",
+    "content": "Contenu du mail",
+    "send": "Envoyer"
+  }
+}
