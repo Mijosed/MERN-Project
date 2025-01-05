@@ -7,6 +7,7 @@ import LanguageSelector from "./components/LanguageSelector";
 import User from "./pages/User";
 import ProtectedRoute from "./ProtectedRoute.jsx";
 import { useAuthMonitor } from "./useAuthMonitor.jsx";
+import React from 'react';
 
 function App() {
   useAuthMonitor();

@@ -25,12 +25,13 @@ app.use(passport.initialize());
 // Utilisez le middleware CORS pour autoriser l'origine de votre front-end
 app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
 
-// CONNECT DATABASE
+// CONNECT DATABASE monoose avec process.env.DATABASE
 mongoose.connect(process.env.DATABASE, {
   dbName: 'IntWeb'
 })
 .then(() => console.log('DB connected'))
 .catch((err) => console.error('DB connection error:', err));
+
 
 
 // Middleware pour le parsing des requêtes
